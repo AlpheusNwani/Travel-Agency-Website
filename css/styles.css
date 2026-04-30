@@ -59,6 +59,7 @@ header {
     padding: 15px;
     display: block;
     transition: 0.3s;
+    border-radius: 10px;
 }
 
 .nav-list a:hover {
@@ -502,12 +503,6 @@ section {
 .section-cta {
     text-align: center;
 }
-
-
-
-
-
-
 
 /* FOOTER */
 footer{
