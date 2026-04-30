@@ -19,13 +19,22 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-            <h1>G-27 TRAVEL AGENCY</h1>
+     <!-- List Of Active Members:
+    NWANI ALPHEUS CHUKWUEBUKA
+    CHUKWUEBUKA CYNTHIA
+    IBEKWEM THANKGOD
+    IBEKWE CHINEDU CYPRIAN  -->
 
-            <!-- nav bar -->
-            <ul>
-                <li> <a href="#home">Home</a> </li>
+    <header>
+
+        <h2 class="logo">G-27 TRAVEL AGENCY</h2>
+
+            <div class="hamburger" id="hamburger"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+
+            <!-- navigation -->
+        <nav class="nav" id="nav-menu">
+            <ul class="nav-list">
+                <li> <a href="#home" class="active">Home</a> </li>
                 <li> <a href="#destinations">Destinations</a> </li>
                 <li> <a href="#packages">Packages</a> </li>
                 <li> <a href="#about">About</a> </li>
@@ -39,11 +48,16 @@
 
         <!-- Hero section -->
         <section class="hero">
-            <div class="hero-text">
-                <h2>Your Journey Begins Where Comfort Ends</h2>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Your Journey Begins Where Comfort Ends</h1>
                 <p>Experience new cultures, stunning landscapes, and journeys you will never forget.</p>
-                <button>Explore Destinations</button>
-                <button>View Packages</button>
+
+                <div class="hero-button">
+                    <a href="destinations.html" class="Explore-btn">Explore Destinations</a>
+
+                    <a href="packages.html" class="packages-btn">View Packages</a>
+                </div>
 
             </div>
     
@@ -62,27 +76,27 @@
             <h2>Featured Destinations</h2>
             <div class="cards">
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="./Images/hero-paris.webp" alt="Paris" loading="lazy">
                     <h3>Paris</h3>
-                    <p>The city of love and lights.</p>
+                    <p>Romantic City of Lights</p>
 
                 </div>
                 <div class="card">
-                    <img src="" alt="">
-                    <h3>Paris</h3>
-                    <p>The city of love and lights.</p>
+                    <img src="./Images/hero-dubai.webp" alt="Dubai" loading="lazy">
+                    <h3>Dubai</h3>
+                    <p>Luxury and innovation.</p>
 
                 </div>
                 <div class="card">
-                    <img src="" alt="">
-                    <h3>Paris</h3>
-                    <p>The city of love and lights.</p>
+                    <img src="./Images/hero-bali.webp" alt="Bali" loading="lazy">
+                    <h3>Bali</h3>
+                    <p>Tropical paradise</p>
 
                 </div>
                 <div class="card">
-                    <img src="" alt="">
-                    <h3>Paris</h3>
-                    <p>The city of love and lights.</p>
+                    <img src="./Images/hero-capetown.webp" alt="Capetown" loading="lazy">
+                    <h3>Capetown</h3>
+                    <p>beautiful Life Adventure</p>
 
                 </div>
 
@@ -136,7 +150,7 @@
             <!-- Call To Action -->
              <section class="cta">
                 <h2>You Want To Eperience Our Topnotch Services?</h2>
-                <button>Book Now</button>
+                <button class="cta-btn">Book Now</button>
              </section>
 
 
