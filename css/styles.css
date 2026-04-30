@@ -494,6 +494,19 @@ footer{
 }
 
 
+@media (max-width: 1024px) {
+  .featured-grid      { grid-template-columns: repeat(2, 1fr); }
+  .destinations-grid  { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid         { grid-template-columns: repeat(2, 1fr); }
+  .team-grid          { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid        { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .why-grid           { grid-template-columns: repeat(2, 1fr); }
+  .about-story        { gap: 2.5rem; }
+  .intro-grid         { gap: 2.5rem; }
+}
 
-
-
+@media (max-width: 768px) {
+    .contact-layout     { grid-template-columns: 1fr; }
+    .form-grid          { grid-template-columns: 1fr; }
+}
+    
